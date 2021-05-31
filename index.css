@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Wemakeprice-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Wemakeprice-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-image: url("https://user-images.githubusercontent.com/26570275/115103986-93e07580-9f90-11eb-8a4b-8bcb4c775e51.gif");
+    background-size: 100%;
+}
+
+.top{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100px;
+    /*
+    위, 오른쪽, 아래 , 왼쪽 순서
+    */
+    color: white;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 1;
+}
+
+h3 {
+    margin-left: 50px;
+    text-align: left;
+}
+
+.top span{
+    /*
+    인라인 배치 후, 값을 중간으로 보여지게 하기 위함. 그럴려면 top에 높이와 넓이가 지정 되어 있어야 함. 
+    */
+    display: inline-block;
+    margin: 5px;
+    vertical-align:middle;
+
+}
+a{
+    /*
+    하이퍼 링크 밑 줄 없애는 용도 
+    */
+    text-decoration:none ;
+    color: white;
+}
+
+p{
+
+    font-size: 19px;
+}
+
+a:hover{
+     /*
+    마우스를 올리면 글자 크기와 색깔이 바뀔 수 있게 액션!
+    시험 나온거 써먹기.. 
+    */
+    color: coral;
+    font-size: 1.5em ;
+}
+
+.title { 
+    margin: 20px;
+    vertical-align:middle;
+}
+
+.makeline{    
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px ;
+    padding-left: 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-align: left;
+
+    color: khaki;
+
+}
+
+
+.main {
+    /*
+    전체 적인 크기를  지정해주고, 테두리를 만들기 위한 스타일. 
+    */
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 6.875rem;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 1.25rem;
+
+    color:honeydew;
+
+    text-align: center;
+
+    /*
+    줄 간격을 조정하기 위한 코드 
+    */
+    line-height:2.7pc;
+
+    font-family: 'Wemakeprice-SemiBold';
+
+    /*
+    첫 문단 들여쓰기a
+    */
+    text-indent: 15px;
+
+    z-index: 0;
+  }
+
+.main-section {
+    padding-top: 100px;
+}
+
+  .start p{
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 1s;
+    line-height: 11pc;
+    font-size: 150px;
+
+  }
+  .start p:hover{
+    transition-property: font-size;
+    transition-duration: 1.5s;
+    font-size:50px;
+    color: yellow;
+
+  }
+
+ul{
+      font-size: 25px;
+      text-align: left;
+      margin: 30px;
+  }
+
+  .education table {
+      margin: 0 auto;
+      border: 2px solid white;
+      width: 80%;;
+  }
+
+  .photo-wrapper img{
+      width: 70%;
+  }
+  .photo-wrapper h1{
+    font-size: 30px;
+}
+
+
+.textbox {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px ;
+    border: 2px solid white;
+    border-radius: 30px;
+
+}
+.textbox2 {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px ;
+    border: 2px solid white;
+    border-radius: 30px;
+
+}
+
+details summary::-webkit-details-marker { 
+    list-style: none;
+}
