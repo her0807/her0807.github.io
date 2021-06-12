@@ -127,7 +127,7 @@ a:hover{
     font-size: 150px;
 
   }
-  .start p:hover{
+  .start p:active{
     transition-property: font-size;
     transition-duration: 1.5s;
     font-size:50px;

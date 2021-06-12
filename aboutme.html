@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <title>허수진 자기소개서</title>
+</head>
+
+<body>
+    <!--제일 상단에 보여질 바를 만들기 위한 파트  -->
+
+    <div class="top">
+        <span>
+            <img width="80" height="80" style="border-radius:50%;"
+                src="https://user-images.githubusercontent.com/26570275/115104109-55978600-9f91-11eb-9509-152991e9a34f.jpeg"></span>
+        <span>
+            <h1>허수달의 </h1>
+        </span>
+        <span>
+
+            <h2><a href="https://github.com/her0807">깃</a></h2>
+
+        </span>
+        <span>
+            <h2><a href="https://velog.io/@devel_sujin">벨로그</a></h2>
+        </span>
+        <span>
+            <h2><a href="index.html">자기소개</a></h2>
+        </span>
+        <span>
+            <h2><a href="education.html">교과</a></h2>
+        </span>
+        <span>
+            <h2><a href="non-education.html">비교과</a></h2>
+        </span>
+        <span>
+            <h2><a href="aboutme.html">나만의 비법과 원칙</a></h2>
+        </span>
+        <span id="clock">
+            <h2 id="stopwatch" style="color:dodgerblue"></h2>
+        </span>
+    </div>
+
+
+    <div class="main-section">
+        <div class="main">
+            <article>
+                <a id="aboutme"> </a>
+                <div class="aboutme">
+                    <h2>나만의 원칙과 비법</h2>
+                    <div class="makeline">
+                        <h2>시간 관리법 </h2>
+                    </div>
+                    <p>
+                        예전엔 시간관리에 중요성을 못느꼈는데, 점점 할 일이 많아지고, 공부하다보면 공부할게 더 늘어나서 관리가 필요하겠다 생각하게 된
+                        계기가 있었습니다. 구글 캘린더에 일정을 등록 해놓고 알림 설정을 해두기도 하고, 다이어리에 해야할 일들과 할 일들을 적어두고
+                        다 하게 되면 표시하는 형식으로 체크하고 있습니다.
+                    </p>
+                    <h2>나만의 원칙과 비법</h2>
+                    <div class="makeline">
+                        <h2>나의 가치관 </h2>
+                    </div>
+                    <p>
+                        "내 미래를 바꾸고 싶거든, 너의 오늘부터 바꿔라" 라는 말을 가슴 깊게 새기며 지내고 있습니다.
+                        타인에게 피해를 끼치지 않고, 작은 일에도 감사하며 살고 싶습니다.
+
+                    </p>
+                    <h2>공부 방법</h2>
+                    <div class="makeline">
+                        <h2>나의 가치관 </h2>
+                    </div>
+                    <p>
+                        거창한 공부 방법은 없지만, 꾸준하게 하는 것이 제 장점이라고 생각합니다.
+                    </p>
+                    <hr>
+                </div>
+            </article>
+
+            <footer>
+                <p>웹 개발 입문 2021 By Rudal</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    let clock = document.getElementById("clock");
+    let stopwatch = document.getElementById("stopwatch");
+    let callback = () => {
+        let time = new Date();
+        time = time.toLocaleTimeString();
+        stopwatch.innerText = "시간 :" + time;
+
+        console.log(time)
+    }
+    let s = setInterval(callback, 900);
+
+
+</script>
