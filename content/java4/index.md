@@ -33,7 +33,6 @@ class Capsule {
     }
 }
 
-------------------------------------------------------
 
 class Main {
     public static void main(String[] args) {
@@ -58,7 +57,6 @@ class Capsule {
     }
 }
 
-------------------------------------------------------
 
 class Main {
     public static void main(String[] args) {
