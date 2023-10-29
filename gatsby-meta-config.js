@@ -1,26 +1,26 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `다정한 원칙`,
+  description: `정해진 원칙에 대한 고찰과 여러 경험들을 다정하게 기록합니다. 개발자로 필요한 원칙들을 정리해갑니다.`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://her0807.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: ``, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `https://github.com/her0807/her0807.github.io`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `허수진`,
     bio: {
-      role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      role: `백엔드 개발자`,
+      description: ['대화가 즐거운', '배움 가득한', '고민이 많은'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
+      github: `https://github.com/her0807`, // `https://github.com/her0807`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      email: `sujin9887@gmail.com`, // `zoomkoding@gmail.com`,
     },
   },
 
@@ -42,15 +42,7 @@ module.exports = {
       },
       // ========================================================
       // ========================================================
-      {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
-        links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
-        },
-      },
+
     ],
 
     projects: [
@@ -71,18 +63,7 @@ module.exports = {
       },
       // ========================================================
       // ========================================================
-      {
-        title: '개발 블로그 테마 개발',
-        description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-        techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
-        links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
-        },
-      },
+
     ],
   },
 };
