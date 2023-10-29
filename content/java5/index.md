@@ -4,7 +4,7 @@ title: "Difference Between Arrays.asList() and List.of() 요약"
 date: "2022-10-22"
 author: 수달
 tags: java
-categories: java 
+categories: java
 ---
 
 > 해당 내용은  **Baeldung 사이트를 번역한 후, 제 생각을 정리한 글입니다.**

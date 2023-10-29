@@ -3,8 +3,8 @@ emoji: 🙂
 title: "Arrays vs LinkedList"
 date: "2022-12-16 10:00:00"
 author: 수달
-tags: java CS 자료구조
-categories: java CS
+tags: java cs 자료구조
+categories: java cs
 ---
 
 

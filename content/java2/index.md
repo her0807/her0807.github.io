@@ -3,7 +3,7 @@ emoji: 🙂
 title: "ArrayList 가 동적으로 사이즈가 늘어나는 동작 원리!"
 date: "2022-12-16 09:00:00"
 author: 수달
-tags: java CS 자료구조
+tags: java cs 자료구조
 categories: cs
 ---
 
