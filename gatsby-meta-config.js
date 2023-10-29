@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `백엔드 개발자`,
       description: ['대화가 즐거운', '배움 가득한', '고민이 많은'],
-      thumbnail: 'sudal.gif', // Path to the image in the 'asset' folder
+      thumbnail: 'sudal_profile.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/her0807`, // `https://github.com/her0807`,
