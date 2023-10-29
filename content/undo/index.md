@@ -2,11 +2,9 @@
 emoji: 🙂
 title: "InnoDB 언두 로그과 리드 로그"
 date: "2022-10-24 21:00:00"
-update: "2022-10-24"
-tags:
-  - mysql 
-  - RealMySQL.8.0
-categories: DB
+author: 수달
+tags: RealMySQL.8.0
+categories: db
 ---
 
 

@@ -1,10 +1,10 @@
 ---
+emoji: 🙂
 title: "SpringBootTest 에서 의존성 주입 방식이 @autowired 로 강제되는 이유"
-description: ""
 date: "2022-12-12 18:00:00"
-update: "2022-12-12"
-tags:
-  - spring 
+author: 수달
+tags: spring
+categories: spring
 ---
 
 ## 학습동기

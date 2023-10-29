@@ -1,7 +1,6 @@
 ---
 emoji: 🙂
 title: "Stream의 reduce() 로 조합 계산하기"
-description: ""
 date: "2022-12-14 11:00:00"
 author: 수달
 tags: java 
