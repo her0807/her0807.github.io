@@ -26,6 +26,7 @@ function PageHeader({ siteTitle }) {
       `}
       render={(data) => (
         <header className="page-header-wrapper">
+          <meta name="google-site-verification" content="Zlcd6hBfFBB4bPhuqK0Ou8LDY5igOHZw1zEuAACcTfA" />
           <div className="page-header">
             <div className="front-section">
               <Link className="link" to="/">
